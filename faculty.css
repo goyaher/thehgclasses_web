@@ -1,0 +1,49 @@
+#cn{
+    margin: auto;
+    text-align: center
+}
+.box{
+    margin-left: -15px;
+    margin-right: -15px;
+    height: 100%;
+}
+.box2{
+    display: flex;
+}
+
+.box2-1{
+    margin: auto;
+    text-align: center;
+}
+/*This for vertical and horizontal centering for a div inside a div*/
+.center{
+    display: flex; 
+    justify-content: center; 
+    align-items: center
+}
+body{
+    border: px solid blue;
+}
+.newbox{
+    margin-left: -15px;
+    margin-right: -15px;
+    
+}
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}

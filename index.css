@@ -1,0 +1,227 @@
+#cn{
+    margin: auto;
+    text-align: center
+}
+.box{
+    margin-left: -15px;
+    margin-right: -15px;
+    height: 100%;
+}
+.box2{
+    display: flex;
+}
+
+.box2-1{
+    margin: auto;
+    text-align: center;
+}
+/*This for vertical and horizontal centering for a div inside a div*/
+.center{
+    display: flex; 
+    justify-content: center; 
+    align-items: center
+}
+body{
+    border: px solid blue;
+}
+.newbox{
+    margin-left: -15px;
+    margin-right: -15px;
+    
+}
+.text1{
+    border: px solid black;
+    font-size: 160%;
+    text-align: center;
+    display: block;
+    margin: auto
+}
+.text2{
+    border: px solid black;
+    font-size: 100%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 0.3%
+}
+.rows{
+    border:  px solid black;
+    width: 70%;
+    height: auto;
+    margin-left: 0%;
+}
+.cols{
+   border: px solid black; 
+   margin-top: 4vh;
+    
+}
+.text3{
+    border: 1px solid black;
+    font-size: 100%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 80%;
+    padding: 6% 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.text4{
+    border: 1px solid black;
+    font-size: 100%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 2.5vh 2.5vh 0vh 0vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+.bookimg{
+    padding-top: 2vh; 
+    padding-bottom: 2vh;
+    display: block;
+    margin: auto;
+}
+.text5{
+    font-size: 140%;
+    padding-top: 1vh;
+    padding-left: 2vh;
+}
+.text6{
+    font-size: 110%;
+    padding-left: 2vh;
+}
+.text7{
+    border: 1px solid black;
+    font-size: 140%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 3vh 4vh;
+    margin-top: 2%
+}
+
+/*FOOTER*/
+
+footer {
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+  background: linear-gradient(59deg, #3A6073, #16222A);
+  color: white;
+  margin-top:100px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+.social-network a.icoGoogle:hover {
+  background-color: #007bb7;
+}
+.social-network a.icoInstagram:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i,
+.social-network a.icoGoogle:hover i,
+.social-network a.icoInstagram:hover i{
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+}
